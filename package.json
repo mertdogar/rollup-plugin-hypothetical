@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-hypothetical",
-  "version": "2.1.0",
+  "version": "2.2.1",
   "description": "gives Rollup an imaginary file system, e.g. for testing other plugins",
   "main": "index.js",
   "engines": {
@@ -25,5 +25,8 @@
   "devDependencies": {
     "mocha": "^5.0.0",
     "rollup": "^0.55.0"
+  },
+  "dependencies": {
+    "path-posix": "^1.0.0"
   }
 }
